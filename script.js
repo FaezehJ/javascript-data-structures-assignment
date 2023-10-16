@@ -33,6 +33,54 @@ let mySampleObject = {
 
 //Make sure to make at least 3 animal objects with these keys inside of the myZooAnimals array!
 
-let myZooAnimals;
+let myZooAnimals = [
+  {
+      animalType: "Horse",
+      name: "Rahna",
+      age: 5,
+      pictureURL: "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+  },
+
+  {
+    animalType: "Parrot",
+    name: "Cocka",
+    age: 5,
+    pictureURL: "https://images.unsplash.com/photo-1623329423038-18c441734417?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+},
+
+  {
+      animalType: "Squirrel",
+      name: "Sam",
+      age: 2,
+      pictureURL: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Squirrel_%28183809435%29.jpeg",
+  },
+  
+  {
+    animalType: "Lion",
+    name: "Sima",
+    age: 1,
+    pictureURL: "https://cdn.pixabay.com/photo/2019/06/12/09/55/lion-4268869_1280.jpg",
+},
+
+{
+  animalType: "Dolphin",
+  name: "Joya",
+  age: 3,
+  pictureURL: "https://cdn.pixabay.com/photo/2015/08/25/04/35/dolphin-906176_1280.jpg",
+},
+
+{
+    animalType: "Peacock",
+    name: "Cidar",
+    age: 5,
+    pictureURL: "https://cdn.pixabay.com/photo/2017/05/29/02/03/peacock-2352723_1280.jpg",
+},
+
+];
+
+console.log(myZooAnimals);
+
 
 //END OF ASSIGNMENT
+
+
